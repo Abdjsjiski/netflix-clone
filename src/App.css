@@ -1,0 +1,24 @@
+:root {
+  --backgroundApp : "#000000"
+}
+
+* {
+  font-family: 'Noto Sans SC', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.App {
+  margin: 0;
+  padding: 0;
+  background-color: var(--backgroundApp);
+}
+
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.App {
+  overflow-x: hidden;
+}
